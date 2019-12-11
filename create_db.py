@@ -1,7 +1,7 @@
-import sqlite3  # importing the sqlite3 library will result in a sqlite3 variable
+import sqlite3  
 import sys
-import os  # os.path.isfile()
-import atexit  # to define "at exit" behavior (Like finally in Java)
+import os  
+import atexit 
 
 cursor = None
 dbcon = None
